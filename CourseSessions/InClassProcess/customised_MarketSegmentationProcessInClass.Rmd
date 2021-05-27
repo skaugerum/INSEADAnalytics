@@ -294,16 +294,26 @@ write.csv(Rotated_Factors_thres, file = "Rotated_Factors_thres.csv")
 
 **Answers**
 
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
+1. Analyzing the first 5 factors, we find that
+    - Component 1 indicates status and knowledge -- people who are boat freaks, who want the latest and greatest, see the boat as a status symbol, and spend a lot of time on boating activities.
+    - Component 2 indicates leisure -- people who use their boat to socialize, seek adventure and reward themselves.
+    - Component 3 indicates social status -- people who care about the brand of the boat and what that brand signals.
+    - Component 4 indicates geeks -- people who know more than most other about boats and make DYI adjustments to their boats.
+    - Component 5 indicates low budget -- people who want a functional boat at a low price
+
+All factors make business sense, however there is some overlap between component 1 and 2-4, indicating that component 1 is a little too large. It also contains more questions than all the other.
+***NEED TO PLAY AROUND WITH NUMBER OF COMPONENTS! Suggest 5 (eigenvalue > 1), 6 (elbow point) and 9 (cum. % <= 65%)***
+
+2. We suggest using **X** factors for the following reasons:
+    a) 
+    b)
+    c)
+
+
+3. 
+
+4. 
+
 
 ## Step 6:  Save factor scores 
 
